@@ -18,8 +18,8 @@ def location(origins="5592+San+Fernando+Rd+91201",destinations="2885+Del+Rosa+Av
 
 if __name__ == '__main__':
     data = location()
-    ds = time.strftime('%a-%I-%M-%S%p')
-    file = 'output/in-' + ds + '.json'
+    ds = time.strftime('%Y-%m-%b-%H-%M-%S')
+    file = 'output/' + ds + '-inbound.json'
     f = open(file, 'w')
     f.writelines(data)
     f.close()
