@@ -1,0 +1,50 @@
+{
+  "status": "OK",
+  "rows": [
+    {
+      "elements": [
+        {
+          "duration": {
+            "text": "57 mins",
+            "value": 3418
+          },
+          "distance": {
+            "text": "60.8 mi",
+            "value": 97808
+          },
+          "status": "OK"
+        },
+        {
+          "duration": {
+            "text": "40 mins",
+            "value": 2416
+          },
+          "distance": {
+            "text": "41.2 mi",
+            "value": 66364
+          },
+          "status": "OK"
+        },
+        {
+          "duration": {
+            "text": "25 mins",
+            "value": 1507
+          },
+          "distance": {
+            "text": "22.6 mi",
+            "value": 36390
+          },
+          "status": "OK"
+        }
+      ]
+    }
+  ],
+  "origin_addresses": [
+    "5592 San Fernando Road, Glendale, CA 91202, USA"
+  ],
+  "destination_addresses": [
+    "2885 Del Rosa Avenue, San Bernardino, CA 92404, USA",
+    "6649 Amethyst Avenue, Rancho Cucamonga, CA 91701, USA",
+    "101 South Azusa Avenue, Azusa, CA 91702, USA"
+  ]
+}
